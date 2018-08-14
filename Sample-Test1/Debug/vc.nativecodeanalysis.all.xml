@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1160</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::RE::pattern_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::RE::{ctor}</FUNCTION>
+    <DECORATED>??0RE@internal@testing@@QAE@ABV012@@Z</DECORATED>
+    <FUNCLINE>1160</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1163</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::RE::pattern_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::RE::{ctor}</FUNCTION>
+    <DECORATED>??0RE@internal@testing@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>1163</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1171</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::RE::pattern_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::RE::{ctor}</FUNCTION>
+    <DECORATED>??0RE@internal@testing@@QAE@PBD@Z</DECORATED>
+    <FUNCLINE>1171</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1671</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::Mutex::owner_thread_id_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::Mutex::{ctor}</FUNCTION>
+    <DECORATED>??0Mutex@internal@testing@@QAE@W4StaticConstructorSelector@012@@Z</DECORATED>
+    <FUNCLINE>1671</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1745</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::ThreadLocalBase::{ctor}</FUNCTION>
+    <DECORATED>??0ThreadLocalBase@internal@testing@@IAE@XZ</DECORATED>
+    <FUNCLINE>1745</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-filepath.h</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::FilePath::{ctor}</FUNCTION>
+    <DECORATED>??0FilePath@internal@testing@@QAE@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-internal.h</FILENAME>
+      <LINE>473</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::TestFactoryBase::{ctor}</FUNCTION>
+    <DECORATED>??0TestFactoryBase@internal@testing@@IAE@XZ</DECORATED>
+    <FUNCLINE>473</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-internal.h</FILENAME>
+      <LINE>550</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::TypedTestCasePState::{ctor}</FUNCTION>
+    <DECORATED>??0TypedTestCasePState@internal@testing@@QAE@XZ</DECORATED>
+    <FUNCLINE>550</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-internal.h</FILENAME>
+      <LINE>564</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>testing::internal::TypedTestCasePState::AddTestName</FUNCTION>
+    <DECORATED>?AddTestName@TypedTestCasePState@internal@testing@@QAE_NPBDH00@Z</DECORATED>
+    <FUNCLINE>555</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-param-util.h</FILENAME>
+      <LINE>485</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::ParameterizedTestCaseInfoBase::{ctor}</FUNCTION>
+    <DECORATED>??0ParameterizedTestCaseInfoBase@internal@testing@@IAE@XZ</DECORATED>
+    <FUNCLINE>485</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-param-util.h</FILENAME>
+      <LINE>670</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::ParameterizedTestCaseRegistry::{ctor}</FUNCTION>
+    <DECORATED>??0ParameterizedTestCaseRegistry@internal@testing@@QAE@XZ</DECORATED>
+    <FUNCLINE>670</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\</FILEPATH>
+      <FILENAME>gtest-test-part.h</FILENAME>
+      <LINE>128</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::TestPartResultArray::{ctor}</FUNCTION>
+    <DECORATED>??0TestPartResultArray@testing@@QAE@XZ</DECORATED>
+    <FUNCLINE>128</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\sample-test1\</FILEPATH>
+      <FILENAME>test.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testMath_myCubeTest_Test::{ctor}</FUNCTION>
+    <DECORATED>??0testMath_myCubeTest_Test@@QAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\sample-test1\</FILEPATH>
+      <FILENAME>test.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testMath_myCubeTest1_Test::{ctor}</FUNCTION>
+    <DECORATED>??0testMath_myCubeTest1_Test@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-port.h</FILENAME>
+      <LINE>1119</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::scoped_ptr&lt;std::basic_stringstream&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$scoped_ptr@V?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@internal@testing@@QAE@PAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>1119</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-linked_ptr.h</FILENAME>
+      <LINE>157</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::linked_ptr&lt;testing::internal::ParamGeneratorInterface&lt;bool&gt; const &gt;::link_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::linked_ptr&lt;testing::internal::ParamGeneratorInterface&lt;bool&gt; const &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$linked_ptr@$$CBV?$ParamGeneratorInterface@_N@internal@testing@@@internal@testing@@QAE@ABV012@@Z</DECORATED>
+    <FUNCLINE>157</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-linked_ptr.h</FILENAME>
+      <LINE>152</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'testing::internal::linked_ptr&lt;testing::internal::ParamGeneratorInterface&lt;bool&gt; const &gt;::link_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::linked_ptr&lt;testing::internal::ParamGeneratorInterface&lt;bool&gt; const &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$linked_ptr@$$CBV?$ParamGeneratorInterface@_N@internal@testing@@@internal@testing@@QAE@PBV?$ParamGeneratorInterface@_N@12@@Z</DECORATED>
+    <FUNCLINE>152</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\administrator\source\repos\simplemath\packages\microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\include\gtest\internal\</FILEPATH>
+      <FILENAME>gtest-linked_ptr.h</FILENAME>
+      <LINE>152</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>testing::internal::linked_ptr&lt;testing::internal::ParamGeneratorInterface&lt;bool&gt; const &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$linked_ptr@$$CBV?$ParamGeneratorInterface@_N@internal@testing@@@internal@testing@@QAE@PBV?$ParamGeneratorInterface@_N@12@@Z</DECORATED>
+    <FUNCLINE>152</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
